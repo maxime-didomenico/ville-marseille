@@ -81,7 +81,7 @@ iframe {
 .navbar .nav-left #logo {
     margin-top: -24.5%;
     margin-left: 2%;
-    position: absolute;
+    position: absolute; /**/
 }
 
 nav a {
