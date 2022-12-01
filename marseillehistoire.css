@@ -1,0 +1,329 @@
+main {
+    background-color: #111;
+    height: 100%;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: center;
+  }
+  
+  h1:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 150%;
+    text-align: center;
+    color: MintCream;
+    letter-spacing: .5px;
+  }
+
+/*///////////////////////////////////image protis/////////////////////////////////*/
+
+.container4 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("https://www.meisterdrucke.fr/kunstwerke/1200w/Joanny_Rave_-_Foundation_of_Marseille_in_600_BC_-_Les_Noces_de_Protis_et_Gyptis_%28oil_on_canvas_-_%28MeisterDrucke-1035127%29.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container4 .pagination {
+    position: relative;
+    height: 80px;
+    padding-left: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    border-radius: 2px;
+  }
+  .container4 .pagination li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 37px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+
+  .container4 .pagination li a {
+    position: relative;
+    color: #fff;
+    font-weight: 200;
+  }
+
+  .container4 .pagination li a:hover,
+  .container4 .pagination li.active a {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+/*///////////////////////////////////BOX 1/////////////////////////////////*/
+
+.container2 {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 1%;
+}
+
+/*///////////////////////////////*/
+
+h2 {
+    font-size: 17px;
+    font-family: 'Arial, Helvetica, sans-serif';
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: justify;
+    padding-left: 230px;
+}
+
+  .struct-three {
+    width: 100%;
+    height: 900px;
+    margin-top: -1%;
+    display: flex;
+}
+
+.three-right {
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+}
+
+.three-right h1{
+    color: #121214;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+/*///////////////////////////////////BOX 2/////////////////////////////////*/
+
+.container3 {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    perspective: 300px;
+    padding-top: 8%;
+    background-color: rgb(16, 84, 145); 
+}
+
+.struct-two {
+    width: 100%;
+    height: 600px;
+    margin-top: -1%;
+    display: flex;
+}
+
+.two-right {
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+}
+
+.two-right h1{
+    color: #121214;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+/*
+.three-left {
+    width: 50%;
+    height: 100%;
+}
+
+.three-left img {
+    margin-top: 5%;
+    margin-left: 13%;
+    width: 74.9%;
+    border: 5px solid #FF4A54;
+}
+*/
+
+/*//////////////////////////////////////////deuxieme page///////////////////////*/
+
+.container5 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("https://www.marseille.fr/sites/default/files/styles/1200x630/public/pages/2015/09/blason.jpg?itok=tucx4CkG");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container5 .pagination {
+  position: relative;
+  height: 80px;
+  padding-left: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  border-radius: 2px;
+}
+.container5 .pagination li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 37px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.container5 .pagination li a {
+  position: relative;
+  color: #fff;
+  font-weight: 200;
+}
+
+.container5 .pagination li a:hover,
+.container5 .pagination li.active a {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+a {
+  color: palegoldenrod;
+}
+
+/*//////////////////////////////////////////troisieme page///////////////////////*/
+
+.container6 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("https://www.publicsenat.fr/sites/default/files/styles/pse_accueil_entete/public/thumbnails/image/senat_hemicycle_ecran_026.jpg?itok=qxCJSW24");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container6 .pagination {
+  position: relative;
+  height: 80px;
+  padding-left: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  border-radius: 2px;
+}
+.container6 .pagination li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 37px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.container6 .pagination li a {
+  position: relative;
+  color: #fff;
+  font-weight: 200;
+}
+
+.container6 .pagination li a:hover,
+.container6 .pagination li.active a {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+pas-footer {
+  margin-top: 130%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: palegoldenrod;
+  background-size: 582px;
+  background-repeat: no-repeat;
+  background-image: url("imgGen/Armoiries_de_Marseille (1).png");
+  background-position: 50%;
+  color: #fff;
+}
+
+nav a {
+  color: black;
+}
+
+footer a {
+  color: black;
+}
+
+h4 {
+  color: black;
+}
+
+pas-footer a {
+  color: black;
+}
+
+footer {
+  background-color: palegoldenrod;
+  color: #fff;
+}
+
+.footer .footer1 a {
+  color: black;
+}
+
+nav a {
+  color: black;
+}
+
+.navbar nav{
+  background-color: palegoldenrod;
+}
+
+.sous {
+  background-color: palegoldenrod;
+}
+
+.navbar .nav-left #logo {
+  margin-top: -72.6%;
+  margin-left: 2%;
+  position: absolute;
+}
+
+nav a:hover {
+  color: grey;
+  transition: 0.8s;
+}
+
+body {
+  background-color: black;
+}
