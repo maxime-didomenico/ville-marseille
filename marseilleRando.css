@@ -83,3 +83,39 @@ iframe {
     margin-left: 2%;
     position: absolute;
 }
+
+nav a {
+    color: #fff;
+  }
+  
+  .navbar nav{
+    background-color: #214761;
+  }
+  
+  .sous {
+    background-color: #214761;
+  }
+  
+  .navbar .nav-left #logo {
+    margin-top: -72.6%;
+    margin-left: 2%;
+    position: absolute;
+  }
+  
+  nav a:hover {
+    color: grey;
+    transition: 0.8s;
+  }
+  
+  nav ul {
+      width: 100%;
+  }
+  
+  footer {
+    background-color: #214761;
+    color: #fff;
+  }
+   
+  .footer .footer1 a {
+    color: #fff;
+  }
