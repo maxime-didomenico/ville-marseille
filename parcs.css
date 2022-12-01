@@ -1,0 +1,431 @@
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+.slider {
+    width: 3600px;
+    min-width: 800px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.image-container img {
+    height: 800px;
+    width: 1300px;
+}
+
+.image-container {
+    width: 4800px;
+    background-color: pink;
+    height: 800px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+
+.slide{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+    
+#slide-1:target~.image-container {
+    left: -0px;
+}
+
+#slide-2:target~.image-container {
+    left: -1300px;
+}
+
+#slide-3:target~.image-container {
+    left: -2600px;
+}
+
+#slide-4:target~.image-container {
+    left: -0px;
+}
+
+#slide-5:target~.image-container {
+    left: -1300px;
+}
+
+#slide-6:target~.image-container {
+    left: -2600px;
+}
+
+#slide-7:target~.image-container {
+    left: -0px;
+}
+
+#slide-8:target~.image-container {
+    left: -1300px;
+}
+
+#slide-9:target~.image-container {
+    left: -2600px;
+}
+
+#slide-a:target~.image-container {
+    left: -0px;
+}
+
+#slide-b:target~.image-container {
+    left: -1300px;
+}
+
+#slide-c:target~.image-container {
+    left: -2600px;
+}
+
+#slide-d:target~.image-container {
+    left: -0px;
+}
+
+#slide-e:target~.image-container {
+    left: -1300px;
+}
+
+#slide-f:target~.image-container {
+    left: -2600px;
+}
+
+
+#slide-g:target~.image-container {
+    left: -0px;
+}
+
+#slide-h:target~.image-container {
+    left: -1300px;
+}
+
+#slide-j:target~.image-container {
+    left: -2600px;
+}
+
+
+#slide-k:target~.image-container {
+    left: -0px; 
+}
+
+#slide-l:target~.image-container {
+    left: -1300px;
+}
+
+#slide-m:target~.image-container {
+    left: -2600px;
+}
+
+
+.buttons {
+    position: relative;
+    top: -40px;
+}
+
+
+.buttons a {
+    display:inline-flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: rgb(199, 42, 42);
+}
+
+.text 
+{    
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.text img {
+    width: 40px;
+    height: 40px;
+}
+
+
+a span {
+    visibility: hidden;
+}
+
+a img:hover + span{
+    visibility: visible;
+}
+
+
+
+.bas  {
+    display: flex;
+    justify-content:center;
+    padding-top: 8%;
+    padding-left: 14%;
+    padding-right: 4%;
+}
+
+.haut  
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 0;
+    
+}
+.text h1
+{
+    margin-top: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color:rgb(25, 128, 128);
+}
+.text p
+{
+    margin-top: 3%;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 24px;
+    text-align: center;
+}
+.accueil
+{
+    width: 100%;
+    height: 90vh;
+}
+.kk img
+{
+    display: flex;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #214761;
+    background-size: 582px;
+    background-repeat: no-repeat;
+    background-image: url("imgGen/Armoiries_de_Marseille (1).png");
+    background-position: 50%;
+    color: #fff;
+    z-index: 11;
+    position: relative;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.footer1 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.footer .footer1 a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.RS {
+    margin-left: 80%;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Open Sans,Arial,sans-serif;
+    margin: 0;
+    
+}
+*
+{
+    
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 150px;
+    flex-direction: row;
+
+}
+
+/*-------------- header -------------*/
+
+
+.navbar .nav-left {
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar .nav-left img {
+    filter: brightness(1.2);
+    width: 100%;
+    margin-top: -22%;
+}
+
+.navbar .nav-left #logo {
+    width: 20%;
+    margin-top: -0.5%;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 1000;
+}
+
+.navbar nav{
+    height: 30%;
+    width: 100%;
+    margin-top: -18px;
+    background-color: #214761;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 18px;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    padding-top: 1%;
+    float: left;
+    width: auto;
+    height: 20px;
+    padding-left:40px;
+    text-align: center;
+    position: relative;
+ 
+}
+
+nav ul::after {
+    content: "";
+    display:table;
+    clear: both;
+    padding-top: 10%;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    border-bottom: 2px solid transparent;
+    margin-top: -5px;
+    padding-bottom: 19px;
+}
+
+nav a:hover {
+    color: #D1E5F4;
+    transition: 0.8s;
+}
+
+.sous {
+
+    border-radius: 2px;
+    display: none;
+    position: absolute;
+    width: 200px;
+    z-index: 1000;
+    margin-top: -7px;
+}
+
+nav >ul :hover .sous {
+    display: block;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    animation: growDown 600ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.sous li {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding-right: 20%;
+    padding: 5px;
+    
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+}
+
+
+.sous a:hover {
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+.deroulant > a::after {
+    margin-top:  30px;
+    font-size: 12px;
+}
+
+  
