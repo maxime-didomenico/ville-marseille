@@ -1,0 +1,278 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.page {
+    width: 100%;
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/*-------------------- side part --------------------*/
+
+.left-pair {
+    width: 40%;
+    height: 100%;
+}
+
+.left-pair h1{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 4px 4px 4px black, 6px 6px 4px black;
+}
+
+.left-pair img{
+    margin-left: 10%;
+    margin-top: 10%;
+    flex-shrink: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.right-pair{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+.right-pair h2{
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.left-odd{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+.left-odd h2{
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.right-odd h1{
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 8%;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 4px 4px 4px black, 6px 6px 4px black;
+}
+
+.right-odd{
+    width: 40%;
+    height: 100%;
+}
+
+.right-odd img {
+    margin-left: 3%;
+    margin-top: 10%;
+    flex-shrink: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+/*-------------------- side parts --------------------*/
+
+.date-one {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.date-one .left-pair h1{
+    padding-top: 30%;
+    padding-left: 8%;
+}
+
+.date-one .right-pair h2{
+    margin-top: 5%;
+}
+
+.date-two {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.date-two .left-odd h2 {
+    margin-top: 7%;
+}
+
+.date-two .right-odd h1 {
+    margin-top: 30%;
+    margin-left: 6%;
+}
+
+.date-three {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.date-three .left-pair h1{
+    margin-top: 30%;
+    margin-left: 9%;
+}
+
+.date-three .right-pair h2{
+    margin-top: 6%;
+}
+
+.date-four {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.date-four .right-odd h1 {
+    margin-top: 30%;
+    margin-left: 5%;
+}
+
+.date-four .left-odd h2 {
+    margin-top: 13%;
+}
+
+.date-five {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.date-five .left-pair h1{
+    margin-top: -30%;
+    margin-left: 13%;
+}
+
+.date-five .left-pair h1 {
+    margin-top: 9%;
+}
+
+.date-five .right-pair h2 {
+    margin-top: 10%;
+}
+
+.date-six {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.date-six .right-odd h1 {
+    margin-top: 30%;
+    margin-left: 6%;
+}
+
+.date-six .left-odd h2 {
+    margin-top: 15%;
+}
+
+.date-seven {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.date-seven .left-pair img {
+    margin-top: -10%;
+}
+
+.date-seven .left-pair h1 {
+    margin-top: 0%;
+    margin-left: 8%;
+    font-size: 45px;
+}
+
+.date-seven .right-pair h2 {
+    margin-top: 10%;
+}
+
+.date-eight {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.date-eight .right-odd h1 {
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.date-eight .right-odd img {
+    margin-top: -10%;
+}
+
+.date-eight .left-odd h2 {
+    margin-top: 10%;
+}
+
+iframe {
+    margin-top: 95%;
+    margin-left: 15%;
+}
+  
+.navbar .nav-left #logo {
+    margin-top: -24.5%;
+    margin-left: 2%;
+    position: absolute;
+}
+  
+nav a:hover {
+    color: #D1E5F4;
+    transition: 0.8s;
+}
+
+footer {
+    margin-top: 10%;
+    background-color: #214761;
+    color: #fff;
+}
+
+.footer .footer1 a {
+    color: #fff;
+}
+
+nav a {
+    color: white;
+}
+
+.navbar nav{
+    background-color: #214761;
+}
+
+.sous {
+    background-color: #214761;
+}
+
+nav ul {
+    width: 100%;
+}
