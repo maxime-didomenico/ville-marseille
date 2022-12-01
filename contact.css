@@ -1,0 +1,135 @@
+form {
+    background-color: #FFFFFF;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 1%;  
+}
+
+.form h1 {
+    margin-top: 5%;
+    color: #508bc4;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 42%;
+}
+
+form {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+form select {
+    margin-right: 30px;
+    width: 400px;
+    height: 50px;
+    font-weight: 300;
+    padding-left: 2%;
+    border: 1px solid #E8E9F6;
+    font-size: 18px;
+    color: #508bc4;
+    background-color: white;
+}
+
+form input {
+    width: 377.9px;
+    margin-top: 30px;
+    margin-right: 30px;
+    height: 47px;
+    font-weight: 300;
+    padding-left: 2%;
+    border: 1px solid #E8E9F6;
+    font-size: 18px;
+    color: #508bc4;
+    background-color: white;
+}
+
+form textarea {
+    width: 817px;
+    margin-top: 30px;
+    margin-right: 30px;
+    height: 150px;
+    font-weight: 200;
+    padding-top: 2%;
+    padding-left: 2%;
+    border: 1px solid #E8E9F6;
+    font-size: 18px;
+    color: #508bc4;
+    background-color: white;
+}
+
+form button {
+    margin-top: 3%;
+    margin-left: 70%;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #508bc4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: #5E5DF0 0 10px 20px -15px;
+}
+  
+button:hover {background-color: #275FA0}
+  
+button:active {
+    background-color: #275FA0;
+    box-shadow: #5E5DF0 0 5px 20px -15px;
+    transform: translateY(4px);
+}
+
+footer {
+    margin-top: 50%;
+    background-color: #214761;
+    color: #fff;
+}
+
+.footer .footer1 a {
+    color: #fff;
+}
+
+nav a {
+    color: white;
+}
+
+.navbar nav{
+    background-color: #214761;
+}
+
+.sous {
+    background-color: #214761;
+}
+
+.navbar .nav-left #logo {
+    margin-top: -24.8%;
+    margin-left: 2%;
+    position: absolute;
+}
+  
+nav a:hover {
+    color: #D1E5F4;
+    transition: 0.8s;
+}
+
+.navbar .nav-left #logo {
+    margin-top: -24.5%;
+    margin-left: 2%;
+    position: absolute;
+}
+  
+nav a:hover {
+    color: #D1E5F4;
+    transition: 0.8s;
+}
+
+nav ul {
+    width: 100%;
+}
