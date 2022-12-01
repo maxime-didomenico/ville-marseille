@@ -50,6 +50,7 @@ body {
 .navbar .nav-left #logo {
     width: 20%;
     position: absolute;
+    z-index: 1000;
 }
 
 .navbar nav{

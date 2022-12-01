@@ -81,7 +81,7 @@ iframe {
 .navbar .nav-left #logo {
     margin-top: -24.5%;
     margin-left: 2%;
-    position: absolute; /**/
+    position: absolute;
 }
 
 nav a {
@@ -94,12 +94,6 @@ nav a {
   
   .sous {
     background-color: #214761;
-  }
-  
-  .navbar .nav-left #logo {
-    margin-top: -72.6%;
-    margin-left: 2%;
-    position: absolute;
   }
   
   nav a:hover {
