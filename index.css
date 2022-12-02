@@ -1,32 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');   
+
 body
 {
     width: 100%;
     max-width: 100%;
     overflow: auto;
     background-color: #006533;
-}
-.navbar
-{
-    background-color: gray;
-}
-.navbar .nav-left #logo {
-    margin-top: -23.8%;
-    margin-left: 20px;
-}
-.deroulant
-{
-    
-}
-nav ul li a
-{
-    color: white;
-}
-nav ul li
-{
-    background-color: gray;
-    color: white;
 }
 
 #main
@@ -164,4 +144,35 @@ footer {
 .footer .footer1 a {
     color: black;
 }
+
 /*-----------------------------*/
+
+nav a {
+    color: white;
+}
+
+.navbar nav{
+    background-color: grey;
+  }
+  
+  .sous {
+    background-color: grey;
+  }
+  
+  nav a:hover {
+    color: rgb(188, 188, 188);
+    transition: 0.8s;
+  }
+  
+  nav ul {
+      width: 100%;
+  }
+  
+  footer {
+    background-color: #214761;
+    color: #fff;
+  }
+   
+  .footer .footer1 a {
+    color: #fff;
+  }
