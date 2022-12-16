@@ -147,12 +147,6 @@ footer {
 
 /*-----------------------------*/
 
-.navbar .nav-left #logo {
-    margin-top: -24.5%;
-    margin-left: 2%;
-    position: absolute;
-}
-
 nav a {
     color: white;
 }
@@ -182,3 +176,7 @@ nav a {
   .footer .footer1 a {
     color: #fff;
   }
+
+  .navbar .nav-left {
+    background-image: url(imgGen/bg.png);
+}

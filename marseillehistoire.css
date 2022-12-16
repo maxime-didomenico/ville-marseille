@@ -1,10 +1,15 @@
 main {
     background-color: black;
+    margin-top: 3%;
     height: 100%;
+  }
+
+  .navbar .nav-left {
+    background-image: url(https://i.pinimg.com/originals/f6/6b/6c/f66b6c017e0d44225d4d32c1105d8146.png);
   }
   
   .container {
-    width: 100%;
+    width: 50%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -311,12 +316,6 @@ nav a {
 
 .sous {
   background-color: palegoldenrod;
-}
-
-.navbar .nav-left #logo {
-  margin-top: -65%;
-  margin-left: 2%;
-  position: absolute;
 }
 
 nav a:hover {

@@ -226,13 +226,6 @@ nav a {
     background-color: #097969;
   }
   
-  .navbar .nav-left #logo {
-    margin-top: 0.3%;
-    margin-left: 2%;
-    position: absolute;
-    z-index: 1000;
-  }
-  
   nav a:hover {
     color: grey;
     transition: 0.8s;
@@ -250,3 +243,7 @@ nav a {
   .footer .footer1 a {
     color: black;
   }
+
+  .navbar .nav-left {
+    background-image: url(imgGen/bg.png);
+}

@@ -1,8 +1,14 @@
+.navbar .nav-left {
+    background-image: url(imgGen/bg.png);
+}
+
 form {
     background-color: #FFFFFF;
-    position: absolute;
-    margin-left: 15%;
+    margin-left: 18%;
     margin-top: 1%;  
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .form h1 {
@@ -11,24 +17,6 @@ form {
     font-size: 30px;
     font-weight: 400;
     margin-left: 42%;
-}
-
-form {
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-form select {
-    margin-right: 30px;
-    width: 400px;
-    height: 50px;
-    font-weight: 300;
-    padding-left: 2%;
-    border: 1px solid #E8E9F6;
-    font-size: 18px;
-    color: #508bc4;
-    background-color: white;
 }
 
 form input {
@@ -87,7 +75,7 @@ button:active {
 }
 
 footer {
-    margin-top: 50%;
+    margin-top: 40%;
     background-color: #214761;
     color: #fff;
 }
@@ -107,24 +95,12 @@ nav a {
 .sous {
     background-color: #214761;
 }
-
-.navbar .nav-left #logo {
-    margin-top: -24.8%;
-    margin-left: 2%;
-    position: absolute;
-}
   
 nav a:hover {
     color: #D1E5F4;
     transition: 0.8s;
 }
 
-.navbar .nav-left #logo {
-    margin-top: -24.5%;
-    margin-left: 2%;
-    position: absolute;
-}
-  
 nav a:hover {
     color: #D1E5F4;
     transition: 0.8s;
@@ -132,4 +108,72 @@ nav a:hover {
 
 nav ul {
     width: 100%;
+}
+
+@media all and (min-width: 769px){
+    .container {
+        visibility: hidden;
+    }
+
+    form {
+        position: absolute;
+    }
+}
+
+@media all and (min-width: 361px) and (max-width: 768px){
+
+    form {
+        margin-left: 0%;
+    }
+
+    .form h1 {
+        margin-left: 37%;
+    }
+
+    form input {
+        width: 600px;
+        margin-left: 5%;
+    }
+
+    form textarea {
+        width: 600px;
+        margin-left: 5%;
+    }
+
+    form button {
+        margin-left: 43%;
+    }
+
+    footer {
+        margin-top: 10%;
+    }
+}
+
+@media all and (max-width: 360px){
+
+
+    form {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .form h1 {
+        margin-left: 20%;
+    }
+
+    form input {
+        width: 300px;
+    }
+
+    form textarea {
+        width: 300px;
+    }
+
+    form button {
+        margin-left: 60%;
+    }
+
+    footer {
+        margin-top: 20%;
+    }
 }

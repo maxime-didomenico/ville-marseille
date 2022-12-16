@@ -20,6 +20,10 @@ body {
 
 /*-------------------------Musée 1---------------------- */
 
+main {
+    background-color: white;
+}
+
 .middle{
     display: flex;
     justify-content: center;
@@ -204,13 +208,6 @@ body {
     background-color: #214761;
   }
   
-  .navbar .nav-left #logo {
-    width: 25%;
-    margin-top: -349px;
-    margin-left: 20px;
-    position: absolute;
-  }
-  
   nav a:hover {
     color: grey;
     transition: 0.8s;
@@ -224,4 +221,8 @@ nav ul {
     padding-left: 25%;
     align-items: center;
     width: 50%;
+}
+
+.navbar .nav-left {
+    background-image: url(imgGen/bg.png);
 }

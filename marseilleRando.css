@@ -78,12 +78,6 @@ iframe {
     height: 500px;
 }
 
-.navbar .nav-left #logo {
-    margin-top: -24.5%;
-    margin-left: 2%;
-    position: absolute;
-}
-
 nav a {
     color: #fff;
   }
@@ -113,3 +107,7 @@ nav a {
   .footer .footer1 a {
     color: #fff;
   }
+
+  .navbar .nav-left {
+    background-image: url(imgGen/bg.png);
+}
