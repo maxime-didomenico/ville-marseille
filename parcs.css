@@ -4,7 +4,7 @@ h1 {
     font-size: 34px;
 }
 
-.container {
+.content {
     display: flex;
     flex-direction: row;
     height: 100vh;
@@ -251,7 +251,7 @@ nav a {
 
 @media screen and (max-width: 768px) {
 
-    .container {
+    .content {
         margin: 0;
         padding: 0;
         display: flex;
@@ -276,7 +276,7 @@ nav a {
         display: flex;
         justify-content: center;
         top: -100px;
-}
+    }
 
 
     .buttons a {
@@ -313,4 +313,4 @@ nav a {
         padding: 0;
         margin: 0;
     }
-  }
+}
